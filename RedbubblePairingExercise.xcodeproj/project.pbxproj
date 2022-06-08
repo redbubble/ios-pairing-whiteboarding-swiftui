@@ -1,0 +1,774 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06199C8F288E407B00F60B5D /* MockData.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 06199C8E288E407B00F60B5D /* MockData.bundle */; };
+		06199C93288ECAD500F60B5D /* MockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06199C92288ECAD500F60B5D /* MockService.swift */; };
+		06ABC7D22850DB890049C23C /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06ABC7D12850DB890049C23C /* ProductView.swift */; };
+		06ABC7D42850DBA00049C23C /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06ABC7D32850DBA00049C23C /* ProductViewModel.swift */; };
+		06ABC7D72850DF870049C23C /* DataModels+Mocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06ABC7D62850DF870049C23C /* DataModels+Mocks.swift */; };
+		06ABC7D92852C64D0049C23C /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06ABC7D82852C64D0049C23C /* LoadingView.swift */; };
+		06ABC7DB2852C7540049C23C /* RoundedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06ABC7DA2852C7540049C23C /* RoundedImageView.swift */; };
+		06ABC7DD2852C8200049C23C /* SquareImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06ABC7DC2852C8200049C23C /* SquareImageView.swift */; };
+		06ABC7E02859522F0049C23C /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06ABC7DF2859522F0049C23C /* ErrorView.swift */; };
+		06ABC7E2285970BF0049C23C /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06ABC7E1285970BF0049C23C /* EmptyView.swift */; };
+		06FA4391285079B20005C12B /* RedbubblePairingExerciseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FA4390285079B20005C12B /* RedbubblePairingExerciseApp.swift */; };
+		06FA4393285079B20005C12B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FA4392285079B20005C12B /* HomeView.swift */; };
+		06FA4395285079B30005C12B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06FA4394285079B30005C12B /* Assets.xcassets */; };
+		06FA4398285079B30005C12B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06FA4397285079B30005C12B /* Preview Assets.xcassets */; };
+		06FA43A2285079B30005C12B /* HomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FA43A1285079B30005C12B /* HomeViewModelTests.swift */; };
+		06FA43AC285079B30005C12B /* HomeScreenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FA43AB285079B30005C12B /* HomeScreenUITests.swift */; };
+		06FA43AE285079B30005C12B /* RedbubblePairingExerciseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FA43AD285079B30005C12B /* RedbubblePairingExerciseUITestsLaunchTests.swift */; };
+		06FA43BC28507AC70005C12B /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 06FA43BB28507AC70005C12B /* Alamofire */; };
+		06FA43C028507B320005C12B /* RedbubbleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FA43BF28507B320005C12B /* RedbubbleService.swift */; };
+		06FA43C228507B800005C12B /* DataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FA43C128507B800005C12B /* DataModels.swift */; };
+		06FA43C528507EE80005C12B /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FA43C428507EE80005C12B /* HomeViewModel.swift */; };
+		06FA43C8285086910005C12B /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 06FA43C7285086910005C12B /* SDWebImageSwiftUI */; };
+		06FA43CB28508A4F0005C12B /* WorkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FA43CA28508A4F0005C12B /* WorkView.swift */; };
+		06FA43CD28508A5F0005C12B /* WorkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FA43CC28508A5F0005C12B /* WorkViewModel.swift */; };
+		06FA43CF2850CDDB0005C12B /* HomeItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FA43CE2850CDDB0005C12B /* HomeItemView.swift */; };
+		06FA43D52850D6090005C12B /* PriceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FA43D42850D6090005C12B /* PriceView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06FA439E285079B30005C12B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06FA4385285079B20005C12B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06FA438C285079B20005C12B;
+			remoteInfo = RedbubblePairingExercise;
+		};
+		06FA43A8285079B30005C12B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06FA4385285079B20005C12B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06FA438C285079B20005C12B;
+			remoteInfo = RedbubblePairingExercise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06199C8E288E407B00F60B5D /* MockData.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MockData.bundle; sourceTree = "<group>"; };
+		06199C92288ECAD500F60B5D /* MockService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockService.swift; sourceTree = "<group>"; };
+		06ABC7D12850DB890049C23C /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
+		06ABC7D32850DBA00049C23C /* ProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
+		06ABC7D62850DF870049C23C /* DataModels+Mocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DataModels+Mocks.swift"; sourceTree = "<group>"; };
+		06ABC7D82852C64D0049C23C /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		06ABC7DA2852C7540049C23C /* RoundedImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedImageView.swift; sourceTree = "<group>"; };
+		06ABC7DC2852C8200049C23C /* SquareImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareImageView.swift; sourceTree = "<group>"; };
+		06ABC7DE285876F10049C23C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		06ABC7DF2859522F0049C23C /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		06ABC7E1285970BF0049C23C /* EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
+		06FA438D285079B20005C12B /* RedbubblePairingExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedbubblePairingExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06FA4390285079B20005C12B /* RedbubblePairingExerciseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedbubblePairingExerciseApp.swift; sourceTree = "<group>"; };
+		06FA4392285079B20005C12B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		06FA4394285079B30005C12B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06FA4397285079B30005C12B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		06FA439D285079B30005C12B /* RedbubblePairingExerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedbubblePairingExerciseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06FA43A1285079B30005C12B /* HomeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelTests.swift; sourceTree = "<group>"; };
+		06FA43A7285079B30005C12B /* RedbubblePairingExerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedbubblePairingExerciseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06FA43AB285079B30005C12B /* HomeScreenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenUITests.swift; sourceTree = "<group>"; };
+		06FA43AD285079B30005C12B /* RedbubblePairingExerciseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedbubblePairingExerciseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		06FA43BF28507B320005C12B /* RedbubbleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedbubbleService.swift; sourceTree = "<group>"; };
+		06FA43C128507B800005C12B /* DataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels.swift; sourceTree = "<group>"; };
+		06FA43C428507EE80005C12B /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		06FA43CA28508A4F0005C12B /* WorkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkView.swift; sourceTree = "<group>"; };
+		06FA43CC28508A5F0005C12B /* WorkViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkViewModel.swift; sourceTree = "<group>"; };
+		06FA43CE2850CDDB0005C12B /* HomeItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeItemView.swift; sourceTree = "<group>"; };
+		06FA43D42850D6090005C12B /* PriceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceView.swift; sourceTree = "<group>"; };
+		9982EDF8288FB42800013633 /* product-screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "product-screen.png"; sourceTree = "<group>"; };
+		9982EDF9288FB42800013633 /* explore-screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "explore-screen.png"; sourceTree = "<group>"; };
+		9982EDFA288FB42800013633 /* work-screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "work-screen.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06FA438A285079B20005C12B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06FA43C8285086910005C12B /* SDWebImageSwiftUI in Frameworks */,
+				06FA43BC28507AC70005C12B /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06FA439A285079B30005C12B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06FA43A4285079B30005C12B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06199C90288ECAB300F60B5D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				06199C92288ECAD500F60B5D /* MockService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		06199C91288ECABC00F60B5D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				06FA43A1285079B30005C12B /* HomeViewModelTests.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		06ABC7D02850DB780049C23C /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				06ABC7D12850DB890049C23C /* ProductView.swift */,
+				06ABC7D32850DBA00049C23C /* ProductViewModel.swift */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		06ABC7D52850DD440049C23C /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				06FA43D42850D6090005C12B /* PriceView.swift */,
+				06ABC7D82852C64D0049C23C /* LoadingView.swift */,
+				06ABC7DA2852C7540049C23C /* RoundedImageView.swift */,
+				06ABC7DC2852C8200049C23C /* SquareImageView.swift */,
+				06ABC7DF2859522F0049C23C /* ErrorView.swift */,
+				06ABC7E1285970BF0049C23C /* EmptyView.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		06FA4384285079B20005C12B = {
+			isa = PBXGroup;
+			children = (
+				06ABC7DE285876F10049C23C /* README.md */,
+				06FA438F285079B20005C12B /* RedbubblePairingExercise */,
+				06FA43A0285079B30005C12B /* RedbubblePairingExerciseTests */,
+				06FA43AA285079B30005C12B /* RedbubblePairingExerciseUITests */,
+				9982EDF7288FB42800013633 /* mockups */,
+				06FA438E285079B20005C12B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		06FA438E285079B20005C12B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06FA438D285079B20005C12B /* RedbubblePairingExercise.app */,
+				06FA439D285079B30005C12B /* RedbubblePairingExerciseTests.xctest */,
+				06FA43A7285079B30005C12B /* RedbubblePairingExerciseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06FA438F285079B20005C12B /* RedbubblePairingExercise */ = {
+			isa = PBXGroup;
+			children = (
+				06FA43BE28507B1F0005C12B /* Core */,
+				06FA43BD28507B140005C12B /* Features */,
+				06FA4390285079B20005C12B /* RedbubblePairingExerciseApp.swift */,
+				06FA4394285079B30005C12B /* Assets.xcassets */,
+				06FA4396285079B30005C12B /* Preview Content */,
+			);
+			path = RedbubblePairingExercise;
+			sourceTree = "<group>";
+		};
+		06FA4396285079B30005C12B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				06FA4397285079B30005C12B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		06FA43A0285079B30005C12B /* RedbubblePairingExerciseTests */ = {
+			isa = PBXGroup;
+			children = (
+				06199C91288ECABC00F60B5D /* ViewModels */,
+				06199C90288ECAB300F60B5D /* Services */,
+				06199C8E288E407B00F60B5D /* MockData.bundle */,
+			);
+			path = RedbubblePairingExerciseTests;
+			sourceTree = "<group>";
+		};
+		06FA43AA285079B30005C12B /* RedbubblePairingExerciseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				06FA43AB285079B30005C12B /* HomeScreenUITests.swift */,
+				06FA43AD285079B30005C12B /* RedbubblePairingExerciseUITestsLaunchTests.swift */,
+			);
+			path = RedbubblePairingExerciseUITests;
+			sourceTree = "<group>";
+		};
+		06FA43BD28507B140005C12B /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				06FA43C328507D3B0005C12B /* Home */,
+				06ABC7D02850DB780049C23C /* Product */,
+				06ABC7D52850DD440049C23C /* Shared */,
+				06FA43C928508A340005C12B /* Work */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		06FA43BE28507B1F0005C12B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				06FA43BF28507B320005C12B /* RedbubbleService.swift */,
+				06FA43C128507B800005C12B /* DataModels.swift */,
+				06ABC7D62850DF870049C23C /* DataModels+Mocks.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		06FA43C328507D3B0005C12B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				06FA4392285079B20005C12B /* HomeView.swift */,
+				06FA43C428507EE80005C12B /* HomeViewModel.swift */,
+				06FA43CE2850CDDB0005C12B /* HomeItemView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		06FA43C928508A340005C12B /* Work */ = {
+			isa = PBXGroup;
+			children = (
+				06FA43CA28508A4F0005C12B /* WorkView.swift */,
+				06FA43CC28508A5F0005C12B /* WorkViewModel.swift */,
+			);
+			path = Work;
+			sourceTree = "<group>";
+		};
+		9982EDF7288FB42800013633 /* mockups */ = {
+			isa = PBXGroup;
+			children = (
+				9982EDF8288FB42800013633 /* product-screen.png */,
+				9982EDF9288FB42800013633 /* explore-screen.png */,
+				9982EDFA288FB42800013633 /* work-screen.png */,
+			);
+			path = mockups;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06FA438C285079B20005C12B /* RedbubblePairingExercise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06FA43B1285079B30005C12B /* Build configuration list for PBXNativeTarget "RedbubblePairingExercise" */;
+			buildPhases = (
+				06FA4389285079B20005C12B /* Sources */,
+				06FA438A285079B20005C12B /* Frameworks */,
+				06FA438B285079B20005C12B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RedbubblePairingExercise;
+			packageProductDependencies = (
+				06FA43BB28507AC70005C12B /* Alamofire */,
+				06FA43C7285086910005C12B /* SDWebImageSwiftUI */,
+			);
+			productName = RedbubblePairingExercise;
+			productReference = 06FA438D285079B20005C12B /* RedbubblePairingExercise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		06FA439C285079B30005C12B /* RedbubblePairingExerciseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06FA43B4285079B30005C12B /* Build configuration list for PBXNativeTarget "RedbubblePairingExerciseTests" */;
+			buildPhases = (
+				06FA4399285079B30005C12B /* Sources */,
+				06FA439A285079B30005C12B /* Frameworks */,
+				06FA439B285079B30005C12B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06FA439F285079B30005C12B /* PBXTargetDependency */,
+			);
+			name = RedbubblePairingExerciseTests;
+			productName = RedbubblePairingExerciseTests;
+			productReference = 06FA439D285079B30005C12B /* RedbubblePairingExerciseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		06FA43A6285079B30005C12B /* RedbubblePairingExerciseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06FA43B7285079B30005C12B /* Build configuration list for PBXNativeTarget "RedbubblePairingExerciseUITests" */;
+			buildPhases = (
+				06FA43A3285079B30005C12B /* Sources */,
+				06FA43A4285079B30005C12B /* Frameworks */,
+				06FA43A5285079B30005C12B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06FA43A9285079B30005C12B /* PBXTargetDependency */,
+			);
+			name = RedbubblePairingExerciseUITests;
+			productName = RedbubblePairingExerciseUITests;
+			productReference = 06FA43A7285079B30005C12B /* RedbubblePairingExerciseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06FA4385285079B20005C12B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					06FA438C285079B20005C12B = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					06FA439C285079B30005C12B = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 06FA438C285079B20005C12B;
+					};
+					06FA43A6285079B30005C12B = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 06FA438C285079B20005C12B;
+					};
+				};
+			};
+			buildConfigurationList = 06FA4388285079B20005C12B /* Build configuration list for PBXProject "RedbubblePairingExercise" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06FA4384285079B20005C12B;
+			packageReferences = (
+				06FA43BA28507AC70005C12B /* XCRemoteSwiftPackageReference "Alamofire" */,
+				06FA43C6285086910005C12B /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
+			productRefGroup = 06FA438E285079B20005C12B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06FA438C285079B20005C12B /* RedbubblePairingExercise */,
+				06FA439C285079B30005C12B /* RedbubblePairingExerciseTests */,
+				06FA43A6285079B30005C12B /* RedbubblePairingExerciseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06FA438B285079B20005C12B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06FA4398285079B30005C12B /* Preview Assets.xcassets in Resources */,
+				06FA4395285079B30005C12B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06FA439B285079B30005C12B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06199C8F288E407B00F60B5D /* MockData.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06FA43A5285079B30005C12B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06FA4389285079B20005C12B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06ABC7DB2852C7540049C23C /* RoundedImageView.swift in Sources */,
+				06FA43CF2850CDDB0005C12B /* HomeItemView.swift in Sources */,
+				06FA43CD28508A5F0005C12B /* WorkViewModel.swift in Sources */,
+				06FA43D52850D6090005C12B /* PriceView.swift in Sources */,
+				06ABC7E2285970BF0049C23C /* EmptyView.swift in Sources */,
+				06ABC7D22850DB890049C23C /* ProductView.swift in Sources */,
+				06ABC7D42850DBA00049C23C /* ProductViewModel.swift in Sources */,
+				06ABC7E02859522F0049C23C /* ErrorView.swift in Sources */,
+				06FA43C228507B800005C12B /* DataModels.swift in Sources */,
+				06ABC7D72850DF870049C23C /* DataModels+Mocks.swift in Sources */,
+				06ABC7DD2852C8200049C23C /* SquareImageView.swift in Sources */,
+				06ABC7D92852C64D0049C23C /* LoadingView.swift in Sources */,
+				06FA4393285079B20005C12B /* HomeView.swift in Sources */,
+				06FA43C028507B320005C12B /* RedbubbleService.swift in Sources */,
+				06FA43C528507EE80005C12B /* HomeViewModel.swift in Sources */,
+				06FA43CB28508A4F0005C12B /* WorkView.swift in Sources */,
+				06FA4391285079B20005C12B /* RedbubblePairingExerciseApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06FA4399285079B30005C12B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06FA43A2285079B30005C12B /* HomeViewModelTests.swift in Sources */,
+				06199C93288ECAD500F60B5D /* MockService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06FA43A3285079B30005C12B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06FA43AC285079B30005C12B /* HomeScreenUITests.swift in Sources */,
+				06FA43AE285079B30005C12B /* RedbubblePairingExerciseUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06FA439F285079B30005C12B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06FA438C285079B20005C12B /* RedbubblePairingExercise */;
+			targetProxy = 06FA439E285079B30005C12B /* PBXContainerItemProxy */;
+		};
+		06FA43A9285079B30005C12B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06FA438C285079B20005C12B /* RedbubblePairingExercise */;
+			targetProxy = 06FA43A8285079B30005C12B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06FA43AF285079B30005C12B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		06FA43B0285079B30005C12B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06FA43B2285079B30005C12B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RedbubblePairingExercise/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.redbubble.RedbubblePairingExercise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		06FA43B3285079B30005C12B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RedbubblePairingExercise/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.redbubble.RedbubblePairingExercise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		06FA43B5285079B30005C12B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.redbubble.RedbubblePairingExerciseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedbubblePairingExercise.app/RedbubblePairingExercise";
+			};
+			name = Debug;
+		};
+		06FA43B6285079B30005C12B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.redbubble.RedbubblePairingExerciseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedbubblePairingExercise.app/RedbubblePairingExercise";
+			};
+			name = Release;
+		};
+		06FA43B8285079B30005C12B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.redbubble.RedbubblePairingExerciseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RedbubblePairingExercise;
+			};
+			name = Debug;
+		};
+		06FA43B9285079B30005C12B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.redbubble.RedbubblePairingExerciseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RedbubblePairingExercise;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06FA4388285079B20005C12B /* Build configuration list for PBXProject "RedbubblePairingExercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06FA43AF285079B30005C12B /* Debug */,
+				06FA43B0285079B30005C12B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06FA43B1285079B30005C12B /* Build configuration list for PBXNativeTarget "RedbubblePairingExercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06FA43B2285079B30005C12B /* Debug */,
+				06FA43B3285079B30005C12B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06FA43B4285079B30005C12B /* Build configuration list for PBXNativeTarget "RedbubblePairingExerciseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06FA43B5285079B30005C12B /* Debug */,
+				06FA43B6285079B30005C12B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06FA43B7285079B30005C12B /* Build configuration list for PBXNativeTarget "RedbubblePairingExerciseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06FA43B8285079B30005C12B /* Debug */,
+				06FA43B9285079B30005C12B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		06FA43BA28507AC70005C12B /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		06FA43C6285086910005C12B /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		06FA43BB28507AC70005C12B /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 06FA43BA28507AC70005C12B /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		06FA43C7285086910005C12B /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 06FA43C6285086910005C12B /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 06FA4385285079B20005C12B /* Project object */;
+}
